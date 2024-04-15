@@ -1,0 +1,16 @@
+h1,h2,h3 {
+    text-align: center !important;
+}
+
+
+@media (monochrome:0) {
+
+    h1,h2,h3,h4,a.Note,a.Note.Number,dfn.Note,dfn.Note.Number,body.Copyright .title,body.Navigate .toc-title {
+        color: #133267 !important;
+    }
+
+    body.Copyright p {
+        border-color: #133267 !important;
+    }
+
+}

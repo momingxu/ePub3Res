@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="bookid" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>书名</dc:title>
+    <dc:date>2015-02-01</dc:date>
+    <dc:language>zh-CN</dc:language>
+    <dc:publisher>出版社</dc:publisher>
+    <dc:rights>权利方</dc:rights>
+    <dc:identifier>urn:isbn:</dc:identifier>
+    <dc:identifier id="bookid">urn:uuid:</dc:identifier>
+
+    <dc:creator id="author">作者1</dc:creator>
+    <meta refines="#author" property="role" scheme="marc:relators">aut</meta>
+
+
+    <dc:creator id="author1">作者2</dc:creator>
+    <meta refines="#author1" property="role" scheme="marc:relators">aut</meta>
+
+
+    <dc:creator id="author2">作者3</dc:creator>
+    <meta refines="#author2" property="role" scheme="marc:relators">aut</meta>
+
+    <dc:creator id="translator">译者1</dc:creator>
+    <meta refines="#translator" property="role" scheme="marc:relators">trl</meta>
+
+    <dc:creator id="translator1">译者2</dc:creator>
+    <meta refines="#translator1" property="role" scheme="marc:relators">trl</meta>
+
+    <meta property="dcterms:modified">2023-05-29T20:37:42Z</meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta name="Sigil version" content="1.9.30" />
+    <meta name="cover" content="Cover.jpg" />
+  </metadata>
